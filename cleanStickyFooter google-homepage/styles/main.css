@@ -1,0 +1,118 @@
+/* google homepage project for The Odin Project */
+
+body {
+	font-size: 13px;
+}
+
+/* header styles */
+
+header {
+	text-align: right;
+	padding: 18px 24px;
+}
+
+li > a > img {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.signin_btn {
+	color: white;
+	font-weight: bold;
+	background-color: #4285f4;
+	border-radius: 1.5px;
+	padding: 8px 13px;
+}
+
+/* section styles */
+
+section {
+	padding: 130px 0 20px 0;
+  	text-align: center;
+}
+
+section > a > img, section > input {
+	display: block;
+	margin: 0 auto 25px auto;
+}
+
+section > a > img {
+	height: 95px;
+	width: 269px;
+}
+
+input {
+	height: 26px;
+	width: 480px;
+  	border: 1px solid #d0d0d0;
+}
+
+section li a {
+	background-color: #f1f1f1;
+  	border: 1px solid #d0d0d0;
+  	border-radius: 2px;
+  	padding: 7px 10px;
+  	font-size: 11px;
+  	font-weight: 600;
+}
+
+/* list styles */
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin: 6px;
+}
+
+/* link styles */
+
+a {
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	color: #585858;
+	font-weight: 500;
+}
+
+/* button styles */
+
+a:hover {
+	text-decoration: underline;
+}
+
+.btn:hover {
+	text-decoration: none;
+	box-shadow: 0 2px 1px -1px #e0e0e0;
+}
+
+.brdr_chng:hover {
+	border-color: #b8b8b8;
+}
+
+/* footer styles */
+
+footer {
+	height: 40px;
+	background-color: #f1f1f1 ;
+}
+
+footer ul:first-child {
+	float: left;
+  	margin-top: 14px;
+  	margin-left: 20px;
+}
+
+footer ul:last-child {
+	float: right;
+	margin-top: 14px;
+	margin-right: 20px;
+}
+
+footer li {
+	margin: 0 12px;
+}
+
+

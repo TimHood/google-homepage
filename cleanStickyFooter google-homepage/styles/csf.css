@@ -1,0 +1,47 @@
+/* CSS for cleanStickyFooter */
+
+html, body {
+       height: 100%;
+ }
+ 
+
+/* already set in reset.css stylesheet
+body {
+       margin: 0px;
+       padding: 0px;
+ }
+ */
+ 
+
+div#wrapper {
+       width: 100%;
+       min-height: 100%;
+       height: auto !important;
+       height: 100%;
+       margin: 0px 0px -40px 0px;
+ }
+ 
+
+div#footer_wrapper {
+       width: 100%;
+       height: 40px;
+ }
+ 
+
+div#content_wrapper {
+       width: 100%;
+       padding: 0px 0px 40px 0px;
+ }
+ 
+
+/* only necessary if content is a fixed width
+div#footer_wrapper, div#content_wrapper {
+       min-width: 942px;
+ }
+ 
+
+div#footer_inner_wrapper, div#content_inner_wrapper {
+       width: 942px;
+       margin: 0px auto;
+ }*/
+ 

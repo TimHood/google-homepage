@@ -1,0 +1,5 @@
+/* google homepage project for The Odin Project */
+
+* {
+	border: 1px dashed blue;
+}

@@ -1,0 +1,110 @@
+/* google homepage project for The Odin Project */
+
+
+/* remove when done */
+header, section, footer, div, p, img, span, ul, li {
+	border: 1px dashed blue;
+}
+
+html, body {
+	height: 100%;  /* cleanStickyFooter */
+	font-size: 13px;
+}
+
+/* header styles */
+
+header {
+	text-align: right;
+	padding: 15px 20px;
+}
+
+li > a> img {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.signin {
+	color: white;
+	font-weight: bold;
+	background-color: #4285f4;
+	border-radius: 2px;
+	padding: 8px 12px;
+}
+
+/* section styles */
+
+section {
+	padding: 40px 0 80px 0;
+  text-align: center;
+}
+
+section > a > img, section > input {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+input {
+	height: 26px;
+	width: 480px;
+  border: 1px solid #d0d0d0;
+}
+
+section li a {
+	background-color: #f1f1f1;
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
+  padding: 7px 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* list styles */
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin: 5px;
+	
+}
+
+a {
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	color: #585858;
+	font-weight: 500;
+}
+
+/*
+a:hover {
+	text-decoration: underline;
+}
+*/
+
+/* footer styles */
+
+footer {
+	height: 40px;
+	background-color: #f1f1f1 ;
+}
+
+footer ul:first-child {
+	float: left;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+footer ul:last-child {
+	float: right;
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+footer li {
+	margin: 0 10px;
+}
+
+
