@@ -99,6 +99,9 @@ a:hover {
 footer {
 	height: 40px;
 	background-color: #f1f1f1 ;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 
 footer ul:first-child {
